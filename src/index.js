@@ -10,4 +10,4 @@ const app = express()
 
     .use('/fire', require('./routers/user.router'), require('./routers/admin.routers'))
 
-    .listen(3030, () => console.log("successfylly server create http://localhost:3030/fire"))
+    .listen(4000, () => console.log("successfylly server create http://localhost:3030/fire"))
